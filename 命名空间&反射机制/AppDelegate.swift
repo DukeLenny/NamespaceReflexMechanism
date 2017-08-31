@@ -17,7 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let namespace = Bundle.main.infoDictionary?["CFBundleExecutable"] as? String
+        // 命名空间 = Product Name
+//        let namespace = Bundle.main.infoDictionary?["CFBundleExecutable"] as? String
+        let namespace = Bundle.main.namespace()
 //        print(namespace)
 //        guard let namespace = namespace else { return false }
         if let namespace = namespace {

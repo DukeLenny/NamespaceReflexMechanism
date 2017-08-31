@@ -14,6 +14,7 @@
 		F780B4F71F56C65900ED34D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F780B4F51F56C65900ED34D0 /* LaunchScreen.storyboard */; };
 		F780B5021F56C65900ED34D0 /* _________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780B5011F56C65900ED34D0 /* _________Tests.swift */; };
 		F780B50D1F56C65900ED34D0 /* _________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780B50C1F56C65900ED34D0 /* _________UITests.swift */; };
+		F7BDA1A61F57A8D3008468A0 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDA1A51F57A8D3008468A0 /* Bundle+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F780B5081F56C65900ED34D0 /* 命名空间&反射机制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "命名空间&反射机制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F780B50C1F56C65900ED34D0 /* _________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_________UITests.swift"; sourceTree = "<group>"; };
 		F780B50E1F56C65A00ED34D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BDA1A51F57A8D3008468A0 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				F780B4EC1F56C65900ED34D0 /* AppDelegate.swift */,
 				F780B4EE1F56C65900ED34D0 /* ViewController.swift */,
+				F7BDA1A51F57A8D3008468A0 /* Bundle+Extension.swift */,
 				F780B4F01F56C65900ED34D0 /* Main.storyboard */,
 				F780B4F31F56C65900ED34D0 /* Assets.xcassets */,
 				F780B4F51F56C65900ED34D0 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F780B4EF1F56C65900ED34D0 /* ViewController.swift in Sources */,
+				F7BDA1A61F57A8D3008468A0 /* Bundle+Extension.swift in Sources */,
 				F780B4ED1F56C65900ED34D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
