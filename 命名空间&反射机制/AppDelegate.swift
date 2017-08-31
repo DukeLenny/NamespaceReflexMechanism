@@ -19,7 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // 命名空间 = Product Name
 //        let namespace = Bundle.main.infoDictionary?["CFBundleExecutable"] as? String
-        let namespace = Bundle.main.namespace()
+//        let namespace = Bundle.main.namespace()
+        let namespace = Bundle.main.namespace
 //        print(namespace)
 //        guard let namespace = namespace else { return false }
         if let namespace = namespace {
